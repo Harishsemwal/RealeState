@@ -1,0 +1,102 @@
+#maincontent {
+  min-height: 100vh;
+}
+
+#locationinput {
+  background-color: aliceblue;
+  height: 50rem;
+  width: 90%;
+  margin: 5rem;
+  border-radius: 3rem;
+}
+
+#locationinput{
+  padding-left:2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#locationinput h1{
+  width: 60%;
+  margin: 0;
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+
+#locationinput p{
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+#search_box{
+  width: 50%;
+  height: 8%;
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 1.8rem;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+#button{
+  background-color: black;
+  color: white;
+  width: 30%;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+#textinput{
+  height: 100%;
+  width: 70%;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+#centerfirst{
+  margin-bottom: 5rem;
+  background-color: #f0effd;
+  width: 90%;
+  height: 80vh;
+  display: flex; 
+  align-items: center;
+  gap: 23rem; 
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow-x: scroll !important;
+}
+
+#centersecond{
+  margin: 5rem;
+}
+
+#cardgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+  display: none !important;
+}
+
